@@ -2,6 +2,11 @@
 
 Tracing prop updates in a React component
 
+[![License](https://img.shields.io/npm/l/react-trace-update.svg)](https://www.npmjs.com/package/react-trace-update)
+[![NPM Version](https://img.shields.io/npm/v/react-trace-update.svg)](https://www.npmjs.com/package/react-trace-update)
+[![Known Vulnerabilities](https://snyk.io/test/github/marshallku/react-trace-update/badge.svg)](https://snyk.io/test/github/marshallku/react-trace-update)
+[![NPM Downloads](https://img.shields.io/npm/dm/react-trace-update.svg)](https://www.npmjs.com/package/react-trace-update)
+
 ## Usage
 
 ### `useTraceUpdate`
