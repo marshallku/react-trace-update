@@ -1,6 +1,6 @@
 {
     "name": "react-trace-update",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "type": "module",
     "main": "dist/react-trace-update.es.js",
