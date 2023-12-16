@@ -1,5 +1,5 @@
 {
-    "words": ["localforage"],
+    "words": ["keyof", "localforage"],
     "ignorePaths": [
         "pnpm-lock.yaml",
         "package.json",
