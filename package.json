@@ -2,17 +2,21 @@
     "name": "react-trace-update",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "type": "module",
+    "main": "dist/react-trace-update.es.js",
+    "commonjs": "dist/react-trace-update.cjs",
+    "module": "dist/react-trace-update.es.js",
+    "types": "dist/index.d.ts",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build",
+        "build": "tsc --p ./tsconfig-build.json && vite build",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "dependencies": {
+    "peerDependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
@@ -26,6 +30,7 @@
         "eslint-plugin-react-hooks": "^4.6.0",
         "eslint-plugin-react-refresh": "^0.4.5",
         "typescript": "^5.2.2",
-        "vite": "^5.0.8"
+        "vite": "^5.0.8",
+        "vite-plugin-dts": "^3.6.4"
     }
 }
