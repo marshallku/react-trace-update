@@ -1,12 +1,12 @@
 import { ComponentType, forwardRef } from "react";
-import useTraceUpdate from "./useTraceUpdate";
+import useTraceUpdate, { UseTraceUpdateOptions } from "./useTraceUpdate";
 
 export default function withTraceUpdate<
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     T extends Record<string, any> = Record<string, any>
->(Component: ComponentType<T>) {
+>(Component: ComponentType<T>, options?: UseTraceUpdateOptions<T>) {
     const WithTraceUpdate = forwardRef<ComponentType<T>, T>((props, ref) => {
-        useTraceUpdate(props);
+        useTraceUpdate(props, options);
         return <Component {...props} ref={ref} />;
     });
 

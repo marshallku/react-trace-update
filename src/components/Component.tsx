@@ -5,6 +5,10 @@ export interface ComponentProps {
 }
 
 export default function Component(props: ComponentProps) {
-    useTraceUpdate(props);
+    useTraceUpdate(props, {
+        onUpdate(props) {
+            console.log("Component props updated", props);
+        },
+    });
     return <div>{props.count}</div>;
 }
