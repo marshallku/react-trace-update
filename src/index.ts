@@ -1,1 +1,1 @@
-console.log("CONNECTED")
+export { default as useTraceUpdate } from "./lib/useTraceUpdate";
