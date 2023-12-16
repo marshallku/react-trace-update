@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Component from "./Component";
+import WithTraceUpdate from "./WithTraceUpdate";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -10,6 +11,7 @@ function App() {
                 count is {count}
             </button>
             <Component count={count} />
+            <WithTraceUpdate count={count} />
         </div>
     );
 }
