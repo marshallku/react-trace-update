@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Component from "./Component";
-import WithTraceUpdate from "./WithTraceUpdate";
+import Component from "./components/Component";
+import WithTraceUpdate from "./components/WithTraceUpdate";
 
 function App() {
     const [count, setCount] = useState(0);

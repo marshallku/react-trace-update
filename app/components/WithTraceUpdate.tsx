@@ -1,4 +1,4 @@
-import withTraceUpdate from "../lib/withTraceUpdate";
+import { withTraceUpdate } from "../../src";
 
 export interface WithTraceUpdateProps {
     count: number;

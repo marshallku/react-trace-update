@@ -26,5 +26,5 @@ export default defineConfig({
             ]),
         },
     },
-    plugins: [react(), dts({ include: ["src/index.ts", "src/lib"] })],
+    plugins: [react(), dts({ include: ["src"] })],
 });

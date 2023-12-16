@@ -1,4 +1,4 @@
-import { useTraceUpdate } from "..";
+import { useTraceUpdate } from "../../src";
 
 export interface ComponentProps {
     count: number;
